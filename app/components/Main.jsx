@@ -1,15 +1,16 @@
 'use strict';
 
 let React = require('react'),
-    Menu = require('Menu');
+    Nav = require('Nav');
 
 let Main = (props) => {
   return (
-    <div>
+    <div className="main">
+      <Nav />
       <div className="row">
         <div className="columns medium-6 large-4 small-centered text-center">
-          <p>Main.jsx rendered</p>
-          <Menu />
+          <p>Sefton Coffee Co.</p>
+
           {props.children}
         </div>
       </div>

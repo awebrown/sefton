@@ -23,8 +23,12 @@ module.exports = {
     root: __dirname,
     alias: {
       Main: 'app/components/Main.jsx',
+      Nav: 'app/components/Nav.jsx',
       Menu: 'app/components/Menu.jsx',
       Coffee: 'app/components/Coffee.jsx',
+      Tea: 'app/components/Tea.jsx',
+      Food: 'app/components/Food.jsx',
+      Snacks: 'app/components/Snacks.jsx',
       applicationStyles: 'app/styles/app.scss'
     },
     extensions: ['', '.js', '.jsx']
