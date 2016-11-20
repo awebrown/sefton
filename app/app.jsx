@@ -4,6 +4,7 @@ let React = require('react'),
     ReactDOM = require('react-dom'),
     {Route, Router, IndexRoute, hashHistory} = require('react-router'),
     Main = require('Main'),
+    Home = require('Home'),
     Coffee = require('Coffee'),
     Tea = require('Tea'),
     Food = require('Food'),
@@ -25,6 +26,7 @@ ReactDOM.render(
       <Route path="tea" component={Tea} />
       <Route path="food" component={Food} />
       <Route path="snacks" component={Snacks} />
+      <IndexRoute component="home" />
     </Route>
   </Router>,
   document.getElementById('app')

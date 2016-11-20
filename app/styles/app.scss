@@ -1,19 +1,15 @@
 .coffee-menu, .food-menu, .tea-menu, .snacks-menu {
   list-style: circle;
 }
-
 .menu {
   float: left;
 }
-
 .menu-list {
   list-style: none;
 }
-
 .coffee, .tea, .food, .snacks {
   float: right;
 }
-
 .home-link, .menu-link {
   font-weight: light;
 }

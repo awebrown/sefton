@@ -9,7 +9,7 @@ let Nav = React.createClass({
       <ul className="menu">
         <li>Sefton Coffee Co.</li>
         <li className="nav">
-          <Link to="/" className="Home-link" activeStyle={{fontWeight:'bold'}}>Home</Link>
+          <IndexLink to="/" className="Home-link" activeStyle={{fontWeight:'bold'}}>Home</IndexLink>
         </li>
         <li className="nav">
           <Link to="menu" className="menu-link" activeStyle={{fontWeight:'bold'}}>Menu</Link>
