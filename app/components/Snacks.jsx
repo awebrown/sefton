@@ -8,11 +8,11 @@ let Snacks = React.createClass({
     <div>
       <Menu />
         <ul className="snacks snacks-menu">
-          <li>Item 16</li>
-          <li>Item 17</li>
-          <li>Item 18</li>
-          <li>Item 19</li>
-          <li>Item 20</li>
+          <li><h4>Item 16</h4></li>
+          <li><h4>Item 17</h4></li>
+          <li><h4>Item 18</h4></li>
+          <li><h4>Item 19</h4></li>
+          <li><h4>Item 20</h4></li>
         </ul>
     </div>
     );

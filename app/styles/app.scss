@@ -1,3 +1,14 @@
+body, a {
+  color: #555;
+}
+a:hover {
+  color: #555;
+}
+
+a:focus {
+  color: #555;
+}
+
 .coffee-menu, .food-menu, .tea-menu, .snacks-menu {
   list-style: circle;
 }
@@ -14,5 +25,18 @@
   font-weight: light;
 }
 .main-text {
-  margin-top:3rem;
+  margin-top: 4rem;
+}
+.footer {
+  top: 305px;
+  position: absolute;
+  width: 40%;
+}
+.nav-items {
+  list-style: none;
+}
+
+.nav-items li {
+  display: inline;
+  margin: 0 25px;
 }

@@ -7,12 +7,15 @@ let React = require('react'),
 let Main = (props) => {
   return (
     <div className="main">
-      <Nav />
       <div className="row">
-        <div className="columns medium-6 large-4 small-centered text-center">
-          <Home />
+        <div className="columns medium-6 large-6 small-centered main-text text-center">
           {props.children}
+          <div className="footer">
+            <hr  />
+            <Nav />
+          </div>
         </div>
+
       </div>
     </div>
   );
