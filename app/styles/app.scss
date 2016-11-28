@@ -8,7 +8,9 @@ a:hover {
 a:focus {
   color: #555;
 }
-
+.main-content {
+  height: 525px;
+}
 .coffee-menu, .food-menu, .tea-menu, .snacks-menu {
   list-style: circle;
 }
@@ -28,7 +30,7 @@ a:focus {
   margin-top: 10rem;
 }
 .footer {
-  top: 305px;
+  // top: 305px;
   width: 100%;
 }
 .nav-items {
