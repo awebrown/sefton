@@ -7,16 +7,16 @@ let Menu = React.createClass({
       <div className="menu">
         <ul className="menu-list">
           <li>
-            <Link to="coffee" activeStyle={{fontWeight:'bold'}}><h3>Coffee</h3></Link>
+            <IndexLink to="coffee" className="active" activeStyle={{textDecoration:'underline'}}><h3>Coffee</h3></IndexLink>
           </li>
           <li>
-            <Link to="tea" activeStyle={{fontWeight:'bold'}}><h3>Tea</h3></Link>
+            <Link to="tea" activeStyle={{textDecoration:'underline'}}><h3>Tea</h3></Link>
           </li>
           <li>
-            <Link to="food" activeStyle={{fontWeight:'bold'}}><h3>Food</h3></Link>
+            <Link to="food" activeStyle={{textDecoration:'underline'}}><h3>Food</h3></Link>
           </li>
           <li>
-            <Link to="snacks" activeStyle={{fontWeight:'bold'}}><h3>Snacks</h3></Link>
+            <Link to="snacks" activeStyle={{textDecoration:'underline'}}><h3>Snacks</h3></Link>
           </li>
         </ul>
       </div>

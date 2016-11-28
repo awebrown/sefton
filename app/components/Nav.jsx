@@ -5,8 +5,7 @@ let React = require('react'),
 let Nav = React.createClass({
   render: function() {
     return (
-    <div className="medium-12 text-center">
-
+    <div>
       <ul className="nav-items">
         <li>
           <IndexLink to="/" className="Home-link" activeStyle={{fontWeight:'bold'}}>Home</IndexLink>
