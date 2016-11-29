@@ -13,10 +13,15 @@ a:focus {
 }
 .menu-items {
   position: absolute;
+  margin-top: 45px;
 }
 
+.menu-items li {
+    margin: 0 !important;
+}
 .menu-list {
-  list-style: circles;
+  list-style: circle;
+  margin: 0;
 }
 .menu-list li {
   display: inline;
