@@ -8,7 +8,7 @@ let Nav = React.createClass({
     <div>
       <ul className="nav-items">
         <li>
-          <IndexLink to="/" className="Home-link" activeStyle={{fontWeight:'bold'}}>Home</IndexLink>
+          <IndexLink to="/" className="home-link" activeStyle={{fontWeight:'bold'}}>Home</IndexLink>
         </li>
         <li>
           <Link to="menu" className="menu-link" activeStyle={{fontWeight:'bold'}}>Menu</Link>

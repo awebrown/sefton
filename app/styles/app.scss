@@ -11,18 +11,24 @@ a:focus {
 .main-content {
   height: 525px;
 }
-.coffee-menu, .food-menu, .tea-menu, .snacks-menu {
-  list-style: circle;
+.menu-items {
+  position: absolute;
 }
-.menu {
-  float: left;
-}
+
 .menu-list {
-  list-style: none;
+  list-style: circles;
 }
-.coffee, .tea, .food, .snacks {
-  float: right;
+.menu-list li {
+  display: inline;
+  margin: 0 25px;
 }
+.menu-list li div{
+  display: inline;
+}
+.menu-list li div h4{
+  display: inline;
+}
+
 .home-link, .menu-link {
   font-weight: light;
 }
@@ -30,8 +36,7 @@ a:focus {
   margin-top: 10rem;
 }
 .footer {
-  // top: 305px;
-  width: 100%;
+
 }
 .nav-items {
   list-style: none;

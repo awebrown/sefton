@@ -11,8 +11,9 @@ let Main = (props) => {
         <div className="columns medium-6 large-6 small-centered main-text text-center">
           <h1>Sefton Coffee Co.</h1>
           <br />
-          <br />
-          {props.children}
+          <div id="container">
+            {props.children}
+          </div>
         </div>
       </div>
       <div className="row footer">

@@ -9,7 +9,8 @@ let React = require('react'),
     Tea = require('Tea'),
     Food = require('Food'),
     Snacks = require('Snacks'),
-    Menu = require('Menu');
+    Menu = require('Menu'),
+    Contact = require('Contact');
 
 //style!css! are chained loaders, look in webpack.config.js
 require('style!css!foundation-sites/dist/foundation.min.css');
@@ -22,6 +23,7 @@ ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
       <Route path="menu" component={Menu} />
+      <Route path="contact" component={Contact} />
       <Route path="coffee" component={Coffee} />
       <Route path="tea" component={Tea} />
       <Route path="food" component={Food} />
